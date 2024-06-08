@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url('../public/backgroundImage.jpg');
+  background-image: url('../src/components/assets/backgroundImage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
