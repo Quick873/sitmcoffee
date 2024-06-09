@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 import './Header.css';
+import { ExternalLink } from "react-external-link";
 
 
 export default function Header () {
@@ -13,7 +14,7 @@ export default function Header () {
             <div className="nav-container">
                 <NavLink to={'/about'} className="navlink">About Us</NavLink>
                 <NavLink to={'/menu'} className="navlink">Menu</NavLink>
-                <NavLink to={'/order'} className="navlink">Order Online</NavLink>
+                <ExternalLink href="https://somewhereinthemiddle.poppinorder.com/" className="navlink">Order Online</ExternalLink>
                 <NavLink to={'contact'} className="navlink">Contact Us</NavLink>
             </div>
         </div>

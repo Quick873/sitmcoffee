@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { ExternalLink } from 'react-external-link';
 
 export default function Order () {
     return (
-        <Link to={'#'} />
+        <ExternalLink href="https://somewhereinthemiddle.poppinorder.com/" />
     )
 }
