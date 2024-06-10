@@ -1,0 +1,26 @@
+.container {
+    background-color: white;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px black;
+    height: 30%;
+}
+
+.fbLogo {
+    width: 25%;
+    height: auto;
+}
+
+.yelpLogo {
+    width: 25%;
+    height: auto;
+}
+.logoContainer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 10%;
+    align-items: center;
+}
