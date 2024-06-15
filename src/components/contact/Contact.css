@@ -22,7 +22,10 @@
 }
 a {
     text-decoration: none;
-    color: darkgrey;
+    color: darkslategray;
+}
+a:hover {
+    color: chocolate;
 }
 iframe {
     margin: 0 auto;
