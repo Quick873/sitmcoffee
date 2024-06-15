@@ -16,14 +16,15 @@ export default function Contact () {
             style={{border:0}} 
             allowfullscreen="" 
             loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Google Maps">
             </iframe>
             <p>Phone Number: <a href="tel:5159678884">515.967.8884</a></p>
             <p>Email: <a href="mailto:coffeeshopbondurant@gmail.com">coffeeshopbondurant@gmail.com</a></p>
             </div>
             <div className="logoContainer">
                 <ExternalLink href="https://www.facebook.com/somewhereinthemiddlecoffeeshopbondurant/" className="Fb">
-                    <img src={fbLogo} className="fbLogo"/>
+                    <img src={fbLogo} className="fbLogo" alt="Facebook Logo"/>
                 </ExternalLink>
             </div>
         </div>
