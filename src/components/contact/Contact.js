@@ -2,7 +2,6 @@ import React from "react";
 import { ExternalLink } from "react-external-link";
 import fbLogo from '../assets/Facebook_Logo_Primary.png';
 import './Contact.css';
-import yelpLogo from "../assets/yelp_favicon.png";
 
 export default function Contact () {
     return(
