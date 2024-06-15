@@ -26,9 +26,6 @@ export default function Contact () {
                 <ExternalLink href="https://www.facebook.com/somewhereinthemiddlecoffeeshopbondurant/" className="Fb">
                     <img src={fbLogo} className="fbLogo"/>
                 </ExternalLink>
-                <ExternalLink href="https://www.yelp.com/biz/somewhere-in-the-middle-coffee-shop-bondurant-2" className="Insta">
-                    <img src={yelpLogo} className="yelpLogo"/>
-                </ExternalLink>
             </div>
         </div>
     )
