@@ -30,3 +30,8 @@ a:hover {
 iframe {
     margin: 0 auto;
 }
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
