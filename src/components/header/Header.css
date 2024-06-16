@@ -30,3 +30,8 @@
 .navlink:hover {
     background-color: cornflowerblue;
 }
+@media (max-width: 600px) {
+    .nav-container{
+        width: 80%;
+    }
+}
