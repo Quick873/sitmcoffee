@@ -60,3 +60,14 @@ h1 {
 img {
     z-index: 1;
 }
+@media (max-width: 600px) {
+    .bottom-container {
+        flex-direction: column;
+    }
+    .order, .menu, .contact {
+        width: 75%;
+    }
+    .top-container {
+        margin-top: 10%;
+    }
+}
