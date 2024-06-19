@@ -2,9 +2,10 @@
     display: flex;
     background-color: rgba(0, 0, 0, 0.4);
     align-items: center;
-    height: 20%;
+    height: 10%;
     width: 100%;
     justify-content: space-between;
+    position: fixed;
 }
 .header-logo {
     height: 50px;
@@ -21,6 +22,9 @@
     border-radius: 5px;
     padding: 1% 2%;
     box-shadow: 1px 1px 1px black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .nav-container {
     justify-content: space-evenly;

@@ -1,0 +1,62 @@
+
+.bottom-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+}
+.top-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 5%;
+}
+.order, .menu, .contact {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.story {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: start;
+    justify-content: start;
+}
+.coffee {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.orderLogo {
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.menuLogo {
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.contactLogo {
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    color: blue;
+    z-index: 2;
+}
+img {
+    z-index: 1;
+}

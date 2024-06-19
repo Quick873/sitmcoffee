@@ -10,7 +10,9 @@ export default function Header () {
 
     return (
         <div className="header">
-            <img src={logo} className="header-logo" alt="logo"/>
+            <NavLink to={'/'}>
+                <img src={logo} className="header-logo" alt="logo"/>
+            </NavLink>
             <div className="nav-container">
                 <NavLink to={'/about'} className="navlink">About Us</NavLink>
                 <NavLink to={'/menu'} className="navlink">Menu</NavLink>
