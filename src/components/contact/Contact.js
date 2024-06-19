@@ -19,6 +19,9 @@ export default function Contact () {
             </iframe>
             <p>Phone Number: <a href="tel:5159678884">515.967.8884</a></p>
             <p>Email: <a href="mailto:coffeeshopbondurant@gmail.com">coffeeshopbondurant@gmail.com</a></p>
+            <p>Hours: Tuesday - Saturday:  7am-2pm<br />
+            Sunday:   7am-12pm<br/>
+            Monday:   Closed</p>
             <div className="logoContainer">
                 <ExternalLink href="https://www.facebook.com/somewhereinthemiddlecoffeeshopbondurant/" className="Fb">
                     <img src={fbLogo} className="fbLogo" alt="Facebook Logo"/>
